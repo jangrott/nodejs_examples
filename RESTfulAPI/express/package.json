@@ -1,0 +1,22 @@
+{
+  "name": "restfulapi",
+  "version": "1.0.0",
+  "description": "RESTful API with express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jangrott/nodejs_examples.git"
+  },
+  "author": "TJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jangrott/nodejs_examples/issues"
+  },
+  "homepage": "https://github.com/jangrott/nodejs_examples#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
