@@ -1,6 +1,5 @@
 var request = require('supertest');
-var expect = require('supertest')
-var server = require('../serverModule')
+var server = require('../serverModule');
 
 server.listen(3000);
 
