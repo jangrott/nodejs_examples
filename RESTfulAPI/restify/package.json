@@ -1,0 +1,19 @@
+{
+  "name": "restfulapi",
+  "version": "1.0.0",
+  "description": "RESTful API with restify",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test/APIEndpoints.js"
+  },
+  "author": "TJ",
+  "license": "ISC",
+  "homepage": "https://github.com/jangrott/nodejs_examples#readme",
+  "dependencies": {
+    "restify": "^4.0.4"
+  },
+  "devDependencies": {
+    "chakram": "^1.2.2",
+    "mocha": "^2.4.5"
+  }
+}
