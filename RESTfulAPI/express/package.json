@@ -6,16 +6,8 @@
   "scripts": {
     "test": "mocha test/APIEndpoints.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jangrott/nodejs_examples.git"
-  },
   "author": "TJ",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jangrott/nodejs_examples/issues"
-  },
-  "homepage": "https://github.com/jangrott/nodejs_examples#readme",
   "dependencies": {
     "express": "^4.13.4"
   },
