@@ -11,8 +11,8 @@ describe("GET /", function() {
         expect(response).to.have.header('Content-Type', 'application/octet-stream'); // why not plain/text ?
         expect(response).to.have.status(200);
         return chakram.wait()
-        .then(function (response) {
-          expect(response.body).to.equal('Hello World\n');
-        });
+          .then(function (response) {
+            expect(response.body).to.equal('Hello World\n');
+          });
     });
 });
