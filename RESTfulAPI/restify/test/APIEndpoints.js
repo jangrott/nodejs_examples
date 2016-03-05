@@ -8,7 +8,7 @@ var url = server.url;
 describe("GET /", function() {
     it("says Hello World", function () {
         var response = chakram.get(url);
-        //expect(response).to.have.header('Content-Type', /plain\/text/);
+        expect(response).to.have.header('Content-Type', 'application/octet-stream'); // why not plain/text ?
         expect(response).to.have.status(200);
         return chakram.wait()
         .then(function (response) {
